@@ -166,6 +166,9 @@
 		A2EF56F31B21D1270005F730 /* NSNotificationCenterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EF56F11B21D1270005F730 /* NSNotificationCenterDemoViewController.m */; };
 		A2EF56F41B21D1270005F730 /* NSNotificationCenterDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2EF56F21B21D1270005F730 /* NSNotificationCenterDemoViewController.xib */; };
 		A2FD5B5D1A52706F00555EA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD5B5C1A52706F00555EA2 /* libz.dylib */; };
+		A3BEAEF4248A4951007105DD /* NSString+JSClassConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BEAEF2248A4951007105DD /* NSString+JSClassConverter.h */; };
+		A3BEAEF5248A4951007105DD /* NSString+JSClassConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BEAEF3248A4951007105DD /* NSString+JSClassConverter.m */; };
+		A3BEAEF6248A4951007105DD /* NSString+JSClassConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BEAEF3248A4951007105DD /* NSString+JSClassConverter.m */; };
 		B8102480206A0DE90099CDA8 /* JKCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8102479206A0DE90099CDA8 /* JKCategories.framework */; };
 		B810248E206A0F7D0099CDA8 /* CATransaction+JKAnimateWithDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = A2958CCA1B35808B00D7AA0F /* CATransaction+JKAnimateWithDuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B810248F206A0F7D0099CDA8 /* CATransaction+JKAnimateWithDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A2958CCB1B35808B00D7AA0F /* CATransaction+JKAnimateWithDuration.m */; };
@@ -1179,6 +1182,8 @@
 		A2FD5B621A52718200555EA2 /* NSDate+JKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSDate+JKUtilities.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A2FF6FE51D04334F00320C36 /* NSData+JKPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSData+JKPCM.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		A2FF6FE61D04334F00320C36 /* NSData+JKPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSData+JKPCM.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A3BEAEF2248A4951007105DD /* NSString+JSClassConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JSClassConverter.h"; sourceTree = "<group>"; };
+		A3BEAEF3248A4951007105DD /* NSString+JSClassConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSClassConverter.m"; sourceTree = "<group>"; };
 		B8102479206A0DE90099CDA8 /* JKCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8531B381F9ED8E700233355 /* NSDate+JKLunarCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKLunarCalendar.h"; sourceTree = "<group>"; };
 		B8531B391F9ED8E700233355 /* NSDate+JKLunarCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKLunarCalendar.m"; sourceTree = "<group>"; };
@@ -2438,6 +2443,8 @@
 				A2BD820F1D0ED7C2006E32F0 /* NSString+JKStringPages.m */,
 				B8A419501DDC07C800BDB39A /* NSString+JKHTML.h */,
 				B8A419511DDC07C800BDB39A /* NSString+JKHTML.m */,
+				A3BEAEF2248A4951007105DD /* NSString+JSClassConverter.h */,
+				A3BEAEF3248A4951007105DD /* NSString+JSClassConverter.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -3166,6 +3173,7 @@
 				B8102562206A10BA0099CDA8 /* UINavigationItem+JKLoading.h in Headers */,
 				B81025F4206A11650099CDA8 /* UIView+JKShake.h in Headers */,
 				B81025E7206A11650099CDA8 /* UINavigationController+JKKeyboardFix.h in Headers */,
+				A3BEAEF4248A4951007105DD /* NSString+JSClassConverter.h in Headers */,
 				B8102580206A10E70099CDA8 /* UIButton+JKBadge.h in Headers */,
 				B810258B206A10E70099CDA8 /* UITextField+JKSelect.h in Headers */,
 				B81025F0206A11650099CDA8 /* UIView+JKBlockGesture.h in Headers */,
@@ -3529,6 +3537,7 @@
 				A284C13F1AEBCF9600D90ED5 /* NSDateFormatterDemoViewController.m in Sources */,
 				A2958CDE1B35826C00D7AA0F /* CAShapeLayerDemoViewController.m in Sources */,
 				A284C1491AEBCFB000D90ED5 /* NSIndexPathDemoViewController.m in Sources */,
+				A3BEAEF5248A4951007105DD /* NSString+JSClassConverter.m in Sources */,
 				A202D98C1B0F7D7900EAB199 /* MKMapViewDemoViewController.m in Sources */,
 				A2958CF01B35838100D7AA0F /* NSPersistentStoreCoordinatorDemoViewController.m in Sources */,
 				A281FBCB1AC8130E009040DA /* UIDeviceDemoViewController.m in Sources */,
@@ -3679,6 +3688,7 @@
 				B810252A206A10660099CDA8 /* NSString+JKXMLDictionary.m in Sources */,
 				B8102592206A10F40099CDA8 /* UIButton+JKBadge.m in Sources */,
 				B81025DF206A11470099CDA8 /* UIImage+JKGIF.m in Sources */,
+				A3BEAEF6248A4951007105DD /* NSString+JSClassConverter.m in Sources */,
 				B8102572206A10C70099CDA8 /* UINavigationItem+JKLoading.m in Sources */,
 				B81024BD206A0FDD0099CDA8 /* NSHTTPCookieStorage+JKFreezeDry.m in Sources */,
 				B81025B7206A11190099CDA8 /* UIImageView+JKAddition.m in Sources */,
